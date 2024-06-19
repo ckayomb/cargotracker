@@ -123,7 +123,7 @@ public class Cargo implements Serializable {
     }
 
     public Cargo(TrackingId trackingId, RouteSpecification routeSpecification) {
-        Validate.notNull(trackingId, "Tracking ID is required");
+        Validate.notNull(trackingId, "Tracking ID is required some changes");
         Validate.notNull(routeSpecification, "Route specification is required");
 
         this.trackingId = trackingId;
